@@ -1,0 +1,26 @@
+# --- Titkok: SOHA ne kerüljenek fel ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Rendszer / szerkesztő ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

@@ -1,0 +1,10 @@
+/node_modules
+/coverage
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+
+# A /build mappa SZÁNDÉKOSAN része a tárolónak:
+# így a felhasználónak nem kell Node.js, elég a Python.
